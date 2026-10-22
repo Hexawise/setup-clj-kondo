@@ -1,26 +1,9 @@
 # setup-clj-kondo
 
-This action sets up clj-kondo for using in GitHub Actions.
+> **This repository has moved to a new public location.**
 
-# Usage
+The source code for this project is now maintained at:
 
-```yaml
-steps:
-- uses: DeLaGuardo/setup-clj-kondo@master
-  with:
-    version: '2020.04.05'
+## [https://github.com/sembi-oss/setup-clj-kondo](https://github.com/sembi-oss/setup-clj-kondo)
 
-- uses: actions/checkout@latest
-
-- name: Run on ubuntu or macosx
-  run: clj-kondo --lint src
-
-- name: Run on windows
-  run: clj-kondo.exe --lint src
-```
-
-For the real world example please check [Test Workflow file](https://github.com/DeLaGuardo/setup-clj-kondo/blob/master/.github/workflows/test.yml)
-
-# License
-
-The scripts and documentation in this project are released under the [MIT License](LICENSE)
+Please update your bookmarks, forks, and any references to point to the new address.
